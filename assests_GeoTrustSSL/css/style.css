@@ -617,10 +617,12 @@ footer,.footer-section{
   opacity: 0.9;
   transition: all 0.5s;
   z-index: 300;
+  position: relative;
 }
 .whatsap_button:hover {
   opacity: 1;
   transition: all 0.5s;
+ 
 }
 .whatsap_button .float {
   position: fixed;
@@ -666,7 +668,10 @@ footer,.footer-section{
     opacity: 0.5;
   }
 }
-
+.whatsap_button:hover a{
+  opacity: 1;
+  animation-play-state: paused;
+}
 
 
 /*--------------------------------------------------------------
